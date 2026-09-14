@@ -3,132 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pollería Pikol</title>
     <link rel="stylesheet" href="src/css/styles.css">
 </head>
 <body>
-    <header >
-        <h1>POLLERIA PIKOL</h1>
-        <p>El auntentico sabor del pollo a la braasa en Cusco</p>
-        <a href="#">Descubrir MENU</a>
+    <header>
+        <h1>🍗 POLLERÍA PIKOL</h1>
+        <p>El auténtico sabor del pollo a la brasa en Cusco</p>
+        <a href="#menu" class="btn-hero">DESCUBRIR MENÚ</a>
     </header>
 
     <nav>
-        <a href="#">INICIO</a>
-        <a href="#">INICIO</a>
-        <a href="#">NOSOTROS</a>
-        <a href="#CONTACTO">CONTACTO</a>
+        <a href="#">🏠 INICIO</a>
+        <a href="#menu">🍴 MENÚ</a>
+        <a href="#">👥 NOSOTROS</a>
+        <a href="#contacto">📄 CONTACTO</a>
     </nav>
 
     <div class="contenedor">
-
         <main>
-
-            <section>
-                <h3>SECTION</h3>
-
-                <article>
-                    <h4>ARTICLE</h4>
-                    <img src="imagen.png" alt="Imagen">
+            <section class="seccion-bienvenidos">
+                <h3>BIENVENIDOS</h3>
+                <article class="caja-texto">
+                    <p>En <strong>Pollería Pikol</strong> nos especializamos en ofrecer pollo a la brasa jugoso, dorado y lleno de sabor. Nuestro secreto está en la receta tradicional y el horneado a la perfección. ¡Ven y pruébalo hoy!</p>
                 </article>
             </section>
 
-            <section id="seccionMenu">
+            <section id="menu" class="seccion-menu">
                 <h3>NUESTRO MENÚ</h3>
-
                 <article>
-                    <h4>Pollo a la brasa</h4>
+                    <h4>🍗 Pollo a la Brasa</h4>
                     <img src="src/assets/image.png" alt="Pollo a la brasa">
                 </article>
 
                 <article>
-                    <h4>Pollo a la parrilla</h4>
+                    <h4>🍗 Pollo a la Parrilla</h4>
                     <img src="src/assets/image2.png" alt="Pollo a la parrilla">
                 </article>
 
                 <article>
-                    <h4>Alitas de pollo</h4>
-                    <img src="src/assets/image3.png" alt="Imagen">
+                    <h4>🍗 Alitas de Pollo</h4>
+                    <img src="src/assets/image3.png" alt="Alitas de pollo">
                 </article>
             </section>
-            
-            <section class="contacto">
-                <h3>CONTACTO</h3>
-                <article>
-                    <p>
-                        Si tienes alguna consulta, duda o necesitas más información,
-                        puedes comunicarte con nosotros a través de nuestros diferentes
-                        medios de contacto. Nuestro equipo estará disponible para atender
-                        tus solicitudes y a yudarte con cualquier inconveniente.
-                    </p>
-                    <p>
-                        Correo electrónico:POLLERIA PIKOL.com
-                    </p>
-
-                    <p>
-                        Teléfono: +51 999 999 999
-                    </p>
-
-                    <p>
-                        Dirección: Cusco, Perú
-                    </p>
-
-                    <p>
-                        Horario de atención: lunes a viernes de 8:00 a. m. a 6:00 p. m.
-                    </p>
-                    <form>
-                        <label for="nombre">Nombre:</label>
-                        <input type="text" id="nombre" name="nombre">
-                        <label for="correo">Correo:</label>
-                        <input type="email" id="correo" name="correo">
-                        <label for="mensaje">Mensaje:</label>
-                        <textarea id="mensaje" name="mensaje"></textarea>
-                        <button type="submit">ENVIAR</button>
-                    </form>
-                </article>
-            </section>
-
-            <section>
-                <h3>SECTION</h3>
-
-                <article>
-                    <h4>ARTICLE</h4>
-                    <img src="mapa.png" alt="Mapa">
-                </article>
-            </section>
-
         </main>
 
-
         <aside>
-
-            <h3>ASIDE</h3>
-
-            <article>
-                <h4>ARTICLE</h4>
-            </article>
-
-            <article>
-                <h4>ARTICLE</h4>
-            </article>
-
-            <article>
-                <h4>ARTICLE</h4>
-            </article>
-
-            <div class="div-aside">
-                DIV
-                <br>
-                📍
+            <div class="titulo-aside">
+                <h3>🔥 Promociones</h3>
             </div>
+            
+            <article class="promo-box">
+                <h4>Martes de Descuento</h4>
+                <p>Todos los martes disfruta de 20% de descuento en combos familiares.</p>
+            </article>
 
+            <article class="promo-box">
+                <h4>Delivery Gratis</h4>
+                <p>Pedidos mayores a S/ 50 con delivery gratis en un radio de 5km.</p>
+            </article>
         </aside>
-
     </div>
 
-
     <footer>
-        FOOTER
+        <p>&copy; Pollería Pikol. Todos los derechos reservados.</p>
     </footer>
     <script src="src/js/script.js"></script>    
 </body>
