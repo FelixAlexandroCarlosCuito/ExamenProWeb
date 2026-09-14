@@ -1,0 +1,123 @@
+/* Configuración general y reseteo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+body {
+    background-color: #e6f0ff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Header, Nav y Footer */
+header {
+    background-color: #ff9933; /* Naranja */
+    color: #fff;
+    padding: 15px;
+}
+
+nav {
+    background-color: #cc0000; /* Rojo */
+    color: #fff;
+    padding: 10px;
+}
+
+footer {
+    background-color: #0088cc; /* Azul claro */
+    color: #fff;
+    padding: 15px;
+}
+
+/* Contenedor principal Grid */
+.contenedor {
+    background-color: #0066ff; /* Azul medio */
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    gap: 15px;
+}
+
+/* Área Main */
+main {
+    background-color: #ffcc00; /* Amarillo */
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Secciones dentro de Main */
+section {
+    background-color: #cc00cc; /* Morado */
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+}
+
+section h3 {
+    margin-bottom: 5px;
+}
+
+/* Artículos dentro de Main */
+section article {
+    background-color: #ffeedd; /* Crema/Rosado claro */
+    color: #333;
+    padding: 15px;
+    width: 90%;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+article img {
+    max-width: 40px;
+    height: auto;
+}
+
+/* Área Aside */
+aside {
+    background-color: #33cc66; /* Verde */
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    color: #fff;
+}
+
+/* Artículos dentro de Aside */
+aside article {
+    background-color: #ffeedd;
+    color: #333;
+    padding: 15px;
+    width: 90%;
+    border-radius: 4px;
+}
+
+/* Bloque inferior del Aside */
+.div-aside {
+    background-color: #0088cc;
+    color: #fff;
+    padding: 15px;
+    width: 90%;
+    border-radius: 4px;
+}
+
+/* Adaptación responsiva para pantallas pequeñas */
+@media (max-width: 768px) {
+    .contenedor {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+
+/* HEADER */
+
+header {
+    background-color: #ff922f;
+    padding: 25px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 7px;
+    border: 1px solid #777;
+}
+
+
+/* NAV */
+
+nav {
+    background-color: #ed1111;
+    color: white;
+    padding: 12px;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+
+/* MAIN */
+
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+
+/* SECTION */
+
+section {
+    background-color: #1875d1;
+    padding: 30px;
+    border-radius: 7px;
+}
+
+
+/* TITULO */
+
+section h2 {
+    text-align: center;
+    color: white;
+    margin-top: 0;
+}
+
+
+/* ARTICULOS */
+
+article {
+    background-color: #f5f2e5;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 7px;
+    border: 1px solid #999;
+}
+
+article h3 {
+    text-align: center;
+    margin-top: 0;
+}
+
+
+/* INFORMACION */
+
+article p {
+    padding: 8px;
+    margin: 5px;
+}
+
+
+/* FORMULARIO */
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* ETIQUETAS */
+
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+/* CAMPOS */
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+
+/* MENSAJE */
+
+textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+
+/* BOTON */
+
+button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #ed1111;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c90000;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #f5eaf5;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #777;
+    border-radius: 6px;
+}
