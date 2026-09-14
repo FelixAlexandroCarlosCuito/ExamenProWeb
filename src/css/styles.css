@@ -17,9 +17,10 @@ body {
 
 /* Header, Nav y Footer */
 header {
-    background-color: #ff9933; /* Naranja */
+    background-image: url("../assets/image4.png");
     color: #fff;
     padding: 15px;
+    text-decoration: none;
 }
 
 nav {
